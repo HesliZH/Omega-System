@@ -4,39 +4,65 @@ using System.Windows.Forms;
 using Omega_System.Class.Model;
 using System.Data;
 using System.Collections.Generic;
+using Omega_System.Class.Controller;
 
 namespace Omega_System.Class.View
 {
-	public partial class frmSearchFab : Form
+	public partial class frmSearchFab : Form, IFormFabricante
 	{
 		int id;
+		Fabricantes f;
+		IFabricanteController i;
 		public frmSearchFab()
 		{
 			InitializeComponent();
+			f = new Fabricantes();
+			i = new FabricantesController();
 		}
 		
-		void Btn_filtrarClick(object sender, EventArgs e)
-		{
-			Fabricantes f = new Fabricantes();
-			this.dgv_fab.DataSource = f.Buscar();
-		}
-		
-		void Btn_incluirClick(object sender, EventArgs e)
-		{
+		public void Incluir(){
 			frmFab f1 = new frmFab();
 			this.Hide();
 			f1.ShowDialog();
+		
 		}
 		
-		void Dgv_fabCellDoubleClick(object sender, DataGridViewCellEventArgs e)
-		{
-			Fabricantes f = new Fabricantes();
+		public void Editar(){
 			f.setId(Convert.ToInt32(dgv_fab.Rows[e.RowIndex].Cells[0].Value));
 			f.setNome(Convert.ToString(dgv_fab.Rows[e.RowIndex].Cells[1].Value));
 			
 			frmUpdFab f3 = new frmUpdFab(f);
 			this.Hide();
 			f3.ShowDialog();
+		}
+		
+		public void Excluir(){
+			f.setId(id);
+			f.Deletar();
+		}
+		
+		public void Filtrar(){
+			this.dgv_fab.DataSource = f.Buscar();		
+		}
+		
+		public void Voltar(){
+			frmMain f3 = new frmMain();
+			this.Hide();
+			f3.ShowDialog();
+		}
+		void Btn_filtrarClick(object sender, EventArgs e)
+		{
+			i.Filtrar();
+		}
+		
+		void Btn_incluirClick(object sender, EventArgs e)
+		{
+			i.Incluir();
+		}
+		
+		void Dgv_fabCellDoubleClick(object sender, DataGridViewCellEventArgs e)
+		{
+			i.Editar();
 		}
 		
 		void Dgv_fabCellClick(object sender, DataGridViewCellEventArgs e)
@@ -46,17 +72,12 @@ namespace Omega_System.Class.View
 		
 		void Btn_excluirClick(object sender, EventArgs e)
 		{
-			Fabricantes f = new Fabricantes();
-			MessageBox.Show(Convert.ToString(id));
-			f.setId(id);
-			f.Deletar();
+			i.Excluir();
 		}
 		
 		void Btn_voltarClick(object sender, EventArgs e)
 		{
-			frmMain f3 = new frmMain();
-			this.Hide();
-			f3.ShowDialog();
+			i.Voltar();
 		}
 	}
 }

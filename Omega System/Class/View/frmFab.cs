@@ -2,28 +2,39 @@
 using System.Drawing;
 using System.Windows.Forms;
 using Omega_System.Class.Model;
+using Omega_System.Class.Controller;
 
 namespace Omega_System.Class.View
 {
-	public partial class frmFab : Form
+	public partial class frmFab : Form, ICadFab
 	{
+		Fabricantes f;
+		ICadFabController controller;
 		public frmFab()
 		{
 			InitializeComponent();
+			f = new Fabricantes();
+			controller = new CadFabController();
 		}
 		
-		void Btn_voltarClick(object sender, EventArgs e)
-		{
+		public void Cadastrar(){
+			f.setNome(txt_nome.Text);
+			f.Cadastrar();
+		}
+		
+		public void Voltar(){
 			frmSearchFab f1 = new frmSearchFab();
 			this.Hide();
 			f1.ShowDialog();
 		}
+		void Btn_voltarClick(object sender, EventArgs e)
+		{
+			this.controller.Cadastrar();
+		}
 		
 		void Btn_cadastrarClick(object sender, EventArgs e)
 		{
-			Fabricantes f = new Fabricantes();
-			f.setNome(txt_nome.Text);
-			f.Cadastrar();
+			this.controller.Voltar();
 		}
 	}
 }
