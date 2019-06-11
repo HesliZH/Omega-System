@@ -73,7 +73,9 @@
     <Compile Include="Class\Controller\ICadFabController.cs" />
     <Compile Include="Class\Controller\IFabricanteController.cs" />
     <Compile Include="Class\Controller\IMainController.cs" />
+    <Compile Include="Class\Controller\IUpdFabController.cs" />
     <Compile Include="Class\Controller\MainController.cs" />
+    <Compile Include="Class\Controller\UpdFabController.cs" />
     <Compile Include="Class\Interfaces\IControleFormularios.cs" />
     <Compile Include="Class\Interfaces\IFormUsuarios.cs" />
     <Compile Include="Class\Model\Categoria.cs" />
@@ -154,6 +156,7 @@
     <Compile Include="Class\View\ICadFab.cs" />
     <Compile Include="Class\View\IFormFabricante.cs" />
     <Compile Include="Class\View\IFormMain.cs" />
+    <Compile Include="Class\View\IUpdFab.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
