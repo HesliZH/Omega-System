@@ -28,10 +28,10 @@ namespace Omega_System.Class.View
 			f1.ShowDialog();
 		}
 		public void Editar(){
-			view.Editar();
+			controller.Editar();
 		}
 		public void Excluir(){
-			view.Excluir();
+			controller.Excluir();
 		}
 		
 		void Btn_filtrarClick(object sender, EventArgs e)

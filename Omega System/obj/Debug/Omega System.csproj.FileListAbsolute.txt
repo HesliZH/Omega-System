@@ -81,3 +81,19 @@ F:\Projetos\Omega System\Omega System\bin\Debug\Omega System.exe.config
 F:\Projetos\Omega System\Omega System\obj\Debug\Omega_System.Class.View.frmFab.resources
 F:\Projetos\Omega System\Omega System\obj\Debug\Omega_System.Class.View.frmSearchFab.resources
 F:\Projetos\Omega System\Omega System\obj\Debug\Omega_System.Class.View.frmUpdFab.resources
+C:\Projetos\Omega-System\Omega System\obj\Debug\Omega System.csprojResolveAssemblyReference.cache
+C:\Projetos\Omega-System\Omega System\obj\Debug\Omega_System.Class.View.frmCategoria.resources
+C:\Projetos\Omega-System\Omega System\obj\Debug\Omega_System.Class.View.frmFab.resources
+C:\Projetos\Omega-System\Omega System\obj\Debug\Omega_System.Class.View.frmMain.resources
+C:\Projetos\Omega-System\Omega System\obj\Debug\Omega_System.Class.View.frmPesquisaCat.resources
+C:\Projetos\Omega-System\Omega System\obj\Debug\Omega_System.Class.View.frmPro.resources
+C:\Projetos\Omega-System\Omega System\obj\Debug\Omega_System.Class.View.frmSearchCat.resources
+C:\Projetos\Omega-System\Omega System\obj\Debug\Omega_System.Class.View.frmSearchFab.resources
+C:\Projetos\Omega-System\Omega System\obj\Debug\Omega_System.Class.View.frmSearchUsuario.resources
+C:\Projetos\Omega-System\Omega System\obj\Debug\Omega_System.Class.View.frmUpdFab.resources
+C:\Projetos\Omega-System\Omega System\obj\Debug\Omega_System.Class.View.frmUpdUsu.resources
+C:\Projetos\Omega-System\Omega System\obj\Debug\Omega_System.Class.View.frmUsu.resources
+C:\Projetos\Omega-System\Omega System\obj\Debug\Omega_System.MainForm.resources
+C:\Projetos\Omega-System\Omega System\obj\Debug\Omega System.csproj.GenerateResource.Cache
+C:\Projetos\Omega-System\Omega System\obj\Debug\Omega System.exe
+C:\Projetos\Omega-System\Omega System\obj\Debug\Omega System.pdb

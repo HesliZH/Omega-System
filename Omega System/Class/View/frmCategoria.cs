@@ -6,7 +6,7 @@ using Omega_System.Class.Controller;
 
 namespace Omega_System.Class.View
 {
-	public partial class frmCategoria : Form: ICadCategoria
+	public partial class frmCategoria : Form, ICadCategoria
 	{
 		Categoria c;
 		ICadCategoriaController controller;

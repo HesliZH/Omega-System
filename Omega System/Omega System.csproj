@@ -75,12 +75,12 @@
     <Compile Include="Class\Controller\ICadCategoriaController.cs" />
     <Compile Include="Class\Controller\ICadFabController.cs" />
     <Compile Include="Class\Controller\ICategoriaController.cs" />
+    <Compile Include="Class\Controller\IControleFormularios.cs" />
     <Compile Include="Class\Controller\IFabricanteController.cs" />
     <Compile Include="Class\Controller\IMainController.cs" />
     <Compile Include="Class\Controller\IUpdFabController.cs" />
     <Compile Include="Class\Controller\MainController.cs" />
     <Compile Include="Class\Controller\UpdFabController.cs" />
-    <Compile Include="Class\Interfaces\IControleFormularios.cs" />
     <Compile Include="Class\Interfaces\IFormUsuarios.cs" />
     <Compile Include="Class\Model\Categoria.cs" />
     <Compile Include="Class\Model\Fabricantes.cs" />

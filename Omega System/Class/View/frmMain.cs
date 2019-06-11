@@ -12,7 +12,7 @@ namespace Omega_System.Class.View
 		public frmMain()
 		{
 			InitializeComponent();
-			controller = new ControleFormularios();
+			controller = new MainController();
 		}
 		
 		public void Usuarios(){
@@ -29,7 +29,7 @@ namespace Omega_System.Class.View
 		}
 		public void Fabricantes(){
 			frmSearchFab f3 = new frmSearchFab();
-            f3.ShowDialog()
+            f3.ShowDialog();
 		}
 		
 		void Btn_usuClick(object sender, EventArgs e)

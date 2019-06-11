@@ -5,26 +5,26 @@ namespace Omega_System.Class.Controller
 {
 	public class FabricantesController : IFabricanteController
 	{
-		IFormFabricante controller;
+		IFormFabricante view;
 		public FabricantesController()
 		{
-			i = new frmSearchFab();
+			view = new frmSearchFab();
 		}
 		
 		public void Incluir(){
-			this.controller.Incluir();
+			this.view.Incluir();
 		}
 		public void Editar(){
-			this.controller.Editar();
+			this.view.Editar();
 		}
 		public void Excluir(){
-			this.controller.Excluir();
+			this.view.Excluir();
 		}
 		public void Filtrar(){
-			this.controller.Filtrar();
+			this.view.Filtrar();
 		}
 		public void Voltar(){
-			this.controller.Voltar();
+			this.view.Voltar();
 		}
 	}
 }

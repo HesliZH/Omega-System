@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Omega_System.Class.Interfaces
+namespace Omega_System.Class.Controller
 {
     interface IControleFormularios
     {	

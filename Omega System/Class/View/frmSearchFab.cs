@@ -28,8 +28,7 @@ namespace Omega_System.Class.View
 		}
 		
 		public void Editar(){
-			f.setId(Convert.ToInt32(dgv_fab.Rows[e.RowIndex].Cells[0].Value));
-			f.setNome(Convert.ToString(dgv_fab.Rows[e.RowIndex].Cells[1].Value));
+			
 			
 			frmUpdFab f3 = new frmUpdFab(f);
 			this.Hide();
@@ -62,7 +61,9 @@ namespace Omega_System.Class.View
 		
 		void Dgv_fabCellDoubleClick(object sender, DataGridViewCellEventArgs e)
 		{
-			i.Editar();
+			f.setId(Convert.ToInt32(dgv_fab.Rows[e.RowIndex].Cells[0].Value));
+			f.setNome(Convert.ToString(dgv_fab.Rows[e.RowIndex].Cells[1].Value));
+			i.Editar(f);
 		}
 		
 		void Dgv_fabCellClick(object sender, DataGridViewCellEventArgs e)

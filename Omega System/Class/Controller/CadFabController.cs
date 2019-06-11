@@ -3,7 +3,7 @@ using Omega_System.Class.View;
 
 namespace Omega_System.Class.Controller
 {
-	public class CadFabController
+	public class CadFabController : ICadFabController
 	{
 		ICadFab view;
 		public CadFabController()
