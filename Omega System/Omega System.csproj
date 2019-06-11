@@ -67,10 +67,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class\Controller\CadFabController.cs" />
+    <Compile Include="Class\Controller\CategoriaController.cs" />
     <Compile Include="Class\Controller\ControleFormularios.cs" />
     <Compile Include="Class\Controller\ControleFormUsuarios.cs" />
     <Compile Include="Class\Controller\FabricantesController.cs" />
     <Compile Include="Class\Controller\ICadFabController.cs" />
+    <Compile Include="Class\Controller\ICategoriaController.cs" />
     <Compile Include="Class\Controller\IFabricanteController.cs" />
     <Compile Include="Class\Controller\IMainController.cs" />
     <Compile Include="Class\Controller\IUpdFabController.cs" />
@@ -154,6 +156,7 @@
       <DependentUpon>frmUsu.cs</DependentUpon>
     </Compile>
     <Compile Include="Class\View\ICadFab.cs" />
+    <Compile Include="Class\View\IFormCategoria.cs" />
     <Compile Include="Class\View\IFormFabricante.cs" />
     <Compile Include="Class\View\IFormMain.cs" />
     <Compile Include="Class\View\IUpdFab.cs" />
