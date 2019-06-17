@@ -1,15 +1,16 @@
 ﻿using System;
 using Omega_System.Class.View;
-using Omega_System.Class.Model;
 
 namespace Omega_System.Class.Controller
 {
-	public class UpdFabController : IUpdFabController
+	public class UpdCategoriaController : IUpdCateController
 	{
-		IUpdFab view;
-		public UpdFabController(){
-			view = new frmUpdFab();
+		IUpdCategoria view;
+		public UpdCategoriaController()
+		{
+			view = new frmUpdCategoria();
 		}
+		
 		public void Editar(){
 			view.Editar();
 		}

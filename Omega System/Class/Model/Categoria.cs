@@ -37,6 +37,10 @@ namespace Omega_System.Class.Model
 			
 		}
 		
+		public void Editar(){
+			DBCategoria.DBEdtiar();
+		}
+		
 		public Categoria()
 		{
 		}

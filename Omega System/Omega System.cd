@@ -1,177 +1,318 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <ClassDiagram Zoom="1" MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Class Name="Omega_System.Class.View.frmSearchFab" Collapsed="False">
-    <Position X="0.5" Y="8.6" Width="1.3" />
+  <Class Name="Omega_System.Class.Model.Produtos" Collapsed="True">
+    <Position X="5.6" Y="3.5" Width="1.517809" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="True" />
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="Omega_System.MainForm" Collapsed="True">
+    <Position X="0.5" Y="8.6" Width="1.78443" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="True" />
       <Compartment Name="Fields" Collapsed="True" />
     </Compartments>
   </Class>
-  <Class Name="Omega_System.Class.Controller.ControleFormUsuarios" Collapsed="False">
-    <Position X="0.5" Y="12.7" Width="1.7" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="True" />
-    </Compartments>
-  </Class>
-  <Class Name="Omega_System.Class.View.frmCategoria" Collapsed="False">
-    <Position X="0.5" Y="14.7" Width="1.3" />
+  <Class Name="Omega_System.Class.View.frmSearchCat" Collapsed="True">
+    <Position X="0.5" Y="12.1" Width="2.061203" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="True" />
       <Compartment Name="Fields" Collapsed="True" />
     </Compartments>
   </Class>
-  <Interface Name="Omega_System.Class.Interfaces.IControleFormularios" Collapsed="False">
-    <Position X="0.5" Y="18.1" Width="1.6" />
+  <Class Name="Omega_System.Class.Controller.CadCategoriaController" Collapsed="True">
+    <Position X="0.5" Y="16.2" Width="2.962311" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="Omega_System.Class.View.frmSearchFab" Collapsed="True">
+    <Position X="0.5" Y="18.3" Width="2.013776" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="Omega_System.Program" Collapsed="True">
+    <Position X="0.5" Y="23.5" Width="1.444186" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="Omega_System.Class.Model.Usuarios" Collapsed="True">
+    <Position X="7.9" Y="4.1" Width="1.687912" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="True" />
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="Omega_System.Class.View.frmSearchUsuario" Collapsed="True">
+    <Position X="0.5" Y="25.4" Width="2.679362" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="Omega_System.Class.Controller.DBCategoria" Collapsed="True">
+    <Position X="0.5" Y="2" Width="1.876706" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="Omega_System.Class.View.frmUpdFab" Collapsed="True">
+    <Position X="0.5" Y="29.5" Width="1.972419" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="Omega_System.Class.Controller.DBFabricantes" Collapsed="True">
+    <Position X="2.9" Y="2" Width="2.078229" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="Omega_System.Class.Controller.DBProdutos" Collapsed="True">
+    <Position X="5.5" Y="2" Width="1.799899" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="Omega_System.Class.View.frmUpdUsu" Collapsed="True">
+    <Position X="0.5" Y="33.5" Width="1.78443" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="Omega_System.Class.Controller.DBUsuario" Collapsed="True">
+    <Position X="7.8" Y="2" Width="1.845285" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="Omega_System.Class.View.frmCategoria" Collapsed="True">
+    <Position X="0.5" Y="37.6" Width="2.26901" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="Omega_System.Class.View.frmUsu" Collapsed="True">
+    <Position X="0.5" Y="41.4" Width="1.78443" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="Omega_System.Class.View.frmFab" Collapsed="True">
+    <Position X="0.5" Y="45.4" Width="1.972419" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Interface Name="Omega_System.Class.View.ICadCategoria" Collapsed="True">
+    <Position X="0.5" Y="49.1" Width="1.296569" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="True" />
     </Compartments>
   </Interface>
-  <Class Name="Omega_System.Class.View.frmSearchUsuario" Collapsed="False">
-    <Position X="0.5" Y="20" Width="1.5" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="True" />
-      <Compartment Name="Fields" Collapsed="True" />
-    </Compartments>
-  </Class>
-  <Class Name="Omega_System.Class.Controller.ControleFormularios" Collapsed="False">
-    <Position X="0.5" Y="24.2" Width="1.6" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="True" />
-    </Compartments>
-  </Class>
-  <Interface Name="Omega_System.Class.Interfaces.IFormUsuarios" Collapsed="False">
-    <Position X="0.5" Y="26.2" Width="1.3" />
+  <Interface Name="Omega_System.Class.View.ICadFab" Collapsed="True">
+    <Position X="0.5" Y="50.6" Width="1.284167" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="True" />
     </Compartments>
   </Interface>
-  <Class Name="Omega_System.Class.Model.Categoria" Collapsed="False">
-    <Position X="0.5" Y="3.7" Width="1" />
+  <Class Name="Omega_System.Class.View.frmMain" Collapsed="True">
+    <Position X="0.5" Y="52.2" Width="1.815583" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Interface Name="Omega_System.Class.View.IFormCategoria" Collapsed="True">
+    <Position X="0.5" Y="56.4" Width="1.355275" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Interface>
+  <Interface Name="Omega_System.Class.View.IFormFabricante" Collapsed="True">
+    <Position X="0.5" Y="58.3" Width="1.40152" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Interface>
+  <Class Name="Omega_System.Class.Controller.CadFabController" Collapsed="True">
+    <Position X="0.5" Y="60.2" Width="2.369128" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Interface Name="Omega_System.Class.View.IFormMain" Collapsed="True">
+    <Position X="0.5" Y="62.3" Width="1.379396" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Interface>
+  <Class Name="Omega_System.Class.Controller.CategoriaController" Collapsed="True">
+    <Position X="0.5" Y="64.1" Width="2.546696" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Interface Name="Omega_System.Class.View.IUpdFab" Collapsed="True">
+    <Position X="0.5" Y="66.4" Width="1.117463" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Interface>
+  <Class Name="Omega_System.Class.Controller.ControleFormularios" Collapsed="True">
+    <Position X="0.5" Y="68" Width="1.88299" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="Omega_System.Class.Controller.ControleFormUsuarios" Collapsed="True">
+    <Position X="0.5" Y="69.9" Width="2.859938" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Interface Name="Omega_System.Class.Controller.ICadFabController" Collapsed="True">
+    <Position X="0.5" Y="71.8" Width="1.501208" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Interface>
+  <Class Name="Omega_System.Class.Controller.FabricantesController" Collapsed="True">
+    <Position X="0.5" Y="73.3" Width="2.748219" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Interface Name="Omega_System.Class.Controller.ICategoriaController" Collapsed="True">
+    <Position X="0.5" Y="75.8" Width="1.596652" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Interface>
+  <Class Name="Omega_System.Class.View.frmPro" Collapsed="True">
+    <Position X="0.5" Y="77.6" Width="1.78443" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Interface Name="Omega_System.Class.Controller.IControleFormularios" Collapsed="True">
+    <Position X="0.5" Y="82.4" Width="1.88299" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Interface>
+  <Interface Name="Omega_System.Class.Controller.IFabricanteController" Collapsed="True">
+    <Position X="0.5" Y="84.3" Width="1.642897" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Interface>
+  <Interface Name="Omega_System.Class.Controller.IMainController" Collapsed="True">
+    <Position X="0.5" Y="86.3" Width="1.379396" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Interface>
+  <Interface Name="Omega_System.Class.Controller.IUpdFabController" Collapsed="True">
+    <Position X="0.5" Y="88.1" Width="1.501208" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Interface>
+  <Class Name="Omega_System.Class.Controller.MainController" Collapsed="True">
+    <Position X="0.5" Y="89.7" Width="2.055456" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="Omega_System.Class.Controller.UpdFabController" Collapsed="True">
+    <Position X="0.5" Y="92" Width="2.369128" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Interface Name="Omega_System.Class.Interfaces.IFormUsuarios" Collapsed="True">
+    <Position X="0.5" Y="94" Width="1.481393" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Interface>
+  <Class Name="Omega_System.Class.Model.Categoria" Collapsed="True">
+    <Position X="0.5" Y="3.7" Width="1.657135" />
     <Compartments>
       <Compartment Name="Properties" Collapsed="True" />
       <Compartment Name="Methods" Collapsed="True" />
     </Compartments>
   </Class>
-  <Class Name="Omega_System.Class.View.frmFab" Collapsed="False">
-    <Position X="0.5" Y="28" Width="1.3" />
+  <Class Name="Omega_System.Class.View.frmPesquisaCat" Collapsed="True">
+    <Position X="0.5" Y="95.9" Width="2.191452" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="True" />
       <Compartment Name="Fields" Collapsed="True" />
     </Compartments>
   </Class>
-  <Class Name="Omega_System.Class.View.frmUpdFab" Collapsed="False">
-    <Position X="0.5" Y="31.1" Width="1.3" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="True" />
-      <Compartment Name="Fields" Collapsed="True" />
-    </Compartments>
-  </Class>
-  <Class Name="Omega_System.Class.Model.Produtos" Collapsed="False">
-    <Position X="5.6" Y="3.5" Width="1" />
+  <Class Name="Omega_System.Class.Model.Fabricantes" Collapsed="True">
+    <Position X="3" Y="4" Width="1.832824" />
     <Compartments>
       <Compartment Name="Properties" Collapsed="True" />
       <Compartment Name="Methods" Collapsed="True" />
     </Compartments>
   </Class>
-  <Class Name="Omega_System.Class.Model.Usuarios" Collapsed="False">
-    <Position X="7.9" Y="4.1" Width="1" />
-    <Compartments>
-      <Compartment Name="Properties" Collapsed="True" />
-      <Compartment Name="Methods" Collapsed="True" />
-      <Compartment Name="Fields" Collapsed="True" />
-    </Compartments>
-  </Class>
-  <Class Name="Omega_System.Class.View.frmUpdUsu" Collapsed="False">
-    <Position X="0.5" Y="34.4" Width="1.3" />
+  <Interface Name="Omega_System.Class.Controller.ICadCategoriaController" Collapsed="True">
+    <Position X="0.5" Y="98.6" Width="1.81112" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="True" />
-      <Compartment Name="Fields" Collapsed="True" />
     </Compartments>
-  </Class>
-  <Class Name="Omega_System.Class.View.frmMain" Collapsed="False">
-    <Position X="0.5" Y="38.6" Width="1.3" />
+  </Interface>
+  <Interface Name="Omega_System.Class.View.IUpdCategoria" Collapsed="True">
+    <Position X="0.5" Y="100.2" Width="1.296569" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="True" />
-      <Compartment Name="Fields" Collapsed="True" />
     </Compartments>
-  </Class>
-  <Class Name="Omega_System.Class.View.frmPesquisaCat" Collapsed="False">
-    <Position X="0.5" Y="42.3" Width="1.4" />
+  </Interface>
+  <Interface Name="Omega_System.Class.Controller.IUpdCateController" Collapsed="True">
+    <Position X="0.5" Y="101.7" Width="1.547506" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="True" />
-      <Compartment Name="Fields" Collapsed="True" />
     </Compartments>
-  </Class>
-  <Class Name="Omega_System.Class.View.frmPro" Collapsed="False">
-    <Position X="0.5" Y="45" Width="1.3" />
+  </Interface>
+  <Class Name="Omega_System.Class.Controller.UpdCategoriaController" Collapsed="True">
+    <Position X="0.5" Y="103.2" Width="2.962311" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="True" />
       <Compartment Name="Fields" Collapsed="True" />
     </Compartments>
   </Class>
-  <Class Name="Omega_System.Class.View.frmUsu" Collapsed="False">
-    <Position X="0.5" Y="49.8" Width="1.3" />
+  <Class Name="Omega_System.Class.View.frmUpdCategoria" Collapsed="True">
+    <Position X="0.5" Y="105.3" Width="2.304674" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="True" />
       <Compartment Name="Fields" Collapsed="True" />
     </Compartments>
   </Class>
-  <Class Name="Omega_System.Class.Controller.DBProdutos" Collapsed="False">
-    <Position X="5.5" Y="2" Width="1.4" />
+  <Class Name="Omega_System.Class.Controller.DBConexao" Collapsed="True">
+    <Position X="3.7" Y="0.5" Width="1.96506" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="True" />
-    </Compartments>
-  </Class>
-  <Class Name="Omega_System.Class.View.frmSearchCat" Collapsed="False">
-    <Position X="0.5" Y="53.8" Width="1.3" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="True" />
-      <Compartment Name="Fields" Collapsed="True" />
-    </Compartments>
-  </Class>
-  <Class Name="Omega_System.Class.Controller.DBUsuario" Collapsed="False">
-    <Position X="7.8" Y="2" Width="1.4" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="True" />
-    </Compartments>
-  </Class>
-  <Class Name="Omega_System.MainForm" Collapsed="False">
-    <Position X="0.5" Y="57" Width="1.3" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="True" />
-      <Compartment Name="Fields" Collapsed="True" />
-    </Compartments>
-  </Class>
-  <Class Name="Omega_System.Program" Collapsed="False">
-    <Position X="0.5" Y="60.5" Width="1.4" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="True" />
-      <Compartment Name="Fields" Collapsed="True" />
-    </Compartments>
-  </Class>
-  <Class Name="Omega_System.Class.Controller.DBCategoria" Collapsed="False">
-    <Position X="0.5" Y="2" Width="1.4" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
-    </Compartments>
-  </Class>
-  <Class Name="Omega_System.Class.Model.Fabricantes" Collapsed="False">
-    <Position X="3" Y="4" Width="1.2" />
-    <Compartments>
-      <Compartment Name="Properties" Collapsed="False" />
-      <Compartment Name="Methods" Collapsed="False" />
-    </Compartments>
-  </Class>
-  <Class Name="Omega_System.Class.Controller.DBConexao" Collapsed="False">
-    <Position X="4" Y="0.5" Width="1.4" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
-    </Compartments>
-  </Class>
-  <Class Name="Omega_System.Class.Controller.DBFabricantes" Collapsed="False">
-    <Position X="3.2" Y="2.4" Width="1.4" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
     </Compartments>
   </Class>
 </ClassDiagram>

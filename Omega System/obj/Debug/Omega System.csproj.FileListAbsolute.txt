@@ -97,3 +97,21 @@ C:\Projetos\Omega-System\Omega System\obj\Debug\Omega_System.MainForm.resources
 C:\Projetos\Omega-System\Omega System\obj\Debug\Omega System.csproj.GenerateResource.Cache
 C:\Projetos\Omega-System\Omega System\obj\Debug\Omega System.exe
 C:\Projetos\Omega-System\Omega System\obj\Debug\Omega System.pdb
+C:\Users\Zik4Urubu\Desktop\Omega-System-master\Omega System\obj\Debug\Omega System.csprojResolveAssemblyReference.cache
+C:\Users\Zik4Urubu\Desktop\Omega-System-master\Omega System\obj\Debug\Omega_System.Class.View.frmCategoria.resources
+C:\Users\Zik4Urubu\Desktop\Omega-System-master\Omega System\obj\Debug\Omega_System.Class.View.frmFab.resources
+C:\Users\Zik4Urubu\Desktop\Omega-System-master\Omega System\obj\Debug\Omega_System.Class.View.frmMain.resources
+C:\Users\Zik4Urubu\Desktop\Omega-System-master\Omega System\obj\Debug\Omega_System.Class.View.frmPesquisaCat.resources
+C:\Users\Zik4Urubu\Desktop\Omega-System-master\Omega System\obj\Debug\Omega_System.Class.View.frmPro.resources
+C:\Users\Zik4Urubu\Desktop\Omega-System-master\Omega System\obj\Debug\Omega_System.Class.View.frmSearchCat.resources
+C:\Users\Zik4Urubu\Desktop\Omega-System-master\Omega System\obj\Debug\Omega_System.Class.View.frmSearchFab.resources
+C:\Users\Zik4Urubu\Desktop\Omega-System-master\Omega System\obj\Debug\Omega_System.Class.View.frmSearchProdutos.resources
+C:\Users\Zik4Urubu\Desktop\Omega-System-master\Omega System\obj\Debug\Omega_System.Class.View.frmSearchUsuario.resources
+C:\Users\Zik4Urubu\Desktop\Omega-System-master\Omega System\obj\Debug\Omega_System.Class.View.frmUpdCategoria.resources
+C:\Users\Zik4Urubu\Desktop\Omega-System-master\Omega System\obj\Debug\Omega_System.Class.View.frmUpdFab.resources
+C:\Users\Zik4Urubu\Desktop\Omega-System-master\Omega System\obj\Debug\Omega_System.Class.View.frmUpdUsu.resources
+C:\Users\Zik4Urubu\Desktop\Omega-System-master\Omega System\obj\Debug\Omega_System.Class.View.frmUsu.resources
+C:\Users\Zik4Urubu\Desktop\Omega-System-master\Omega System\obj\Debug\Omega_System.MainForm.resources
+C:\Users\Zik4Urubu\Desktop\Omega-System-master\Omega System\obj\Debug\Omega System.csproj.GenerateResource.Cache
+C:\Users\Zik4Urubu\Desktop\Omega-System-master\Omega System\obj\Debug\Omega System.exe
+C:\Users\Zik4Urubu\Desktop\Omega-System-master\Omega System\obj\Debug\Omega_System.Class.View.frmUpdPro.resources

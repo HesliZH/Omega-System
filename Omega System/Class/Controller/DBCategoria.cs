@@ -50,6 +50,22 @@ namespace Omega_System.Class.Controller
 			return lista;
 		}
 		
+		public static void DBEditar(Categoria c){
+			NpgsqlConnection conn = DBConexao.Conectar();
+			
+			string query = "UPDATE Categorias SET descricao = @n WHERE ID = @i";
+			NpgsqlCommand cmd = new NpgsqlCommand(query);
+			cmd.Connection = conn;
+			cmd.Parameters.Add("i", c.getId());
+			cmd.Parameters.Add("n", c.getDescricao());
+			
+			if(cmd.ExecuteNonQuery() == 1){
+				MessageBox.Show("Categoria alterado com sucesso", "Sucesso", MessageBoxButtons.OK);
+			}else{
+				MessageBox.Show("Erro ao alterar!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
+		}
+		
 		public DBCategoria()
 		{
 		}

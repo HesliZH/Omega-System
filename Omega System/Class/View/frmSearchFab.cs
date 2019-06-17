@@ -63,7 +63,7 @@ namespace Omega_System.Class.View
 		{
 			f.setId(Convert.ToInt32(dgv_fab.Rows[e.RowIndex].Cells[0].Value));
 			f.setNome(Convert.ToString(dgv_fab.Rows[e.RowIndex].Cells[1].Value));
-			i.Editar(f);
+			i.Editar();
 		}
 		
 		void Dgv_fabCellClick(object sender, DataGridViewCellEventArgs e)

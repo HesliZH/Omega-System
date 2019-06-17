@@ -5,7 +5,7 @@ namespace Omega_System.Class.Controller
 {
 	public interface IUpdFabController
 	{
-		void Editar(Fabricantes f);
+		void Editar();
 		void Voltar();		
 	}
 }
