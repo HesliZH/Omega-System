@@ -25,7 +25,7 @@ namespace Omega_System.Class.View
 		}
 		
 		public void Editar(){
-			//Form edição	
+			p.Editar();
 		}
 		
 		public void Excluir(){
@@ -60,9 +60,13 @@ namespace Omega_System.Class.View
 		
 		void dgv_produtosCellDoubleClick(object sender, DataGridViewCellEventArgs e)
 		{
-			p.setId(Convert.ToInt32(dgv_produtos.Rows[e.RowIndex].Cells[0].Value));
-			p.setNome(Convert.ToString(dgv_produtos.Rows[e.RowIndex].Cells[1].Value));
-			this.controller.Editar(p);
+			p.setCodigo(Convert.ToInt32(dgv_produtos.Rows[e.RowIndex].Cells[0].Value));
+			p.setDescricao(Convert.ToString(dgv_produtos.Rows[e.RowIndex].Cells[1].Value));
+			p.setMarca(Convert.ToString(dgv_produtos.Rows[e.RowIndex].Cells[2].Value));
+			p.setVenda(Convert.ToDouble(dgv_produtos.Rows[e.RowIndex].Cells[3].Value));
+			p.setQtd(Convert.ToDouble(dgv_produtos.Rows[e.RowIndex].Cells[4].Value));
+			p.setCategoria(Convert.ToString(dgv_produtos.Rows[e.RowIndex].Cells[5].Value));
+			this.controller.Editar();
 		}
 	}
 }

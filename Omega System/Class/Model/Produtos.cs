@@ -64,6 +64,15 @@ namespace Omega_System.Class.Model
 		public void Cadastrar(){
 		    DBProdutos.Inserir(this);
 		}
+		
+		public void Editar(){
+			
+		}
+		
+		public void Excluir(){
+		
+		}
+		
 		public Produtos()
 		{
 		}

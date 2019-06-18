@@ -1,18 +1,18 @@
 ﻿using System;
 using Omega_System.Class.View;
-using Omega_System.Class.Model;
+using Omega_System.Class.Interfaces;
 
 namespace Omega_System.Class.Controller
 {
-	public class ProdutosController : IProdutosController
+	public class UsuariosController : IUsuarioController
 	{
-		IFormProdutos view;
-		public ProdutosController()
+		IFormUsuarios view;
+		public UsuariosController()
 		{
-			view = new frmSearchProdutos();
+			view = new frmSearchUsuario();
 		}
 		
-		public void Incluir(){
+		public void Incluir(){	
 			view.Incluir();
 		}
 		
@@ -26,6 +26,6 @@ namespace Omega_System.Class.Controller
 		
 		public void Voltar(){
 			view.Voltar();
-		} 
+		}
 	}
 }

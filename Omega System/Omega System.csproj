@@ -81,13 +81,14 @@
     <Compile Include="Class\Controller\IUpdCateController.cs" />
     <Compile Include="Class\Controller\IUpdFabController.cs" />
     <Compile Include="Class\Controller\IUpdProdController.cs" />
+    <Compile Include="Class\Controller\IUsuarioController.cs" />
     <Compile Include="Class\Controller\MainController.cs" />
     <Compile Include="Class\Controller\IProdutosController.cs" />
     <Compile Include="Class\Controller\ProdutosController.cs" />
     <Compile Include="Class\Controller\UpdCategoriaController.cs" />
     <Compile Include="Class\Controller\UpdFabController.cs" />
     <Compile Include="Class\Controller\UpdProdController.cs" />
-    <Compile Include="Class\Interfaces\IFormUsuarios.cs" />
+    <Compile Include="Class\Controller\UsuariosController.cs" />
     <Compile Include="Class\Model\Categoria.cs" />
     <Compile Include="Class\Model\Fabricantes.cs" />
     <Compile Include="Class\Model\Produtos.cs" />
@@ -181,6 +182,7 @@
     <Compile Include="Class\View\IFormFabricante.cs" />
     <Compile Include="Class\View\IFormMain.cs" />
     <Compile Include="Class\View\IFormProdutos.cs" />
+    <Compile Include="Class\View\IFormUsuarios.cs" />
     <Compile Include="Class\View\IUpdCategoria.cs" />
     <Compile Include="Class\View\IUpdFab.cs" />
     <Compile Include="Class\View\IUpdPro.cs" />
@@ -194,6 +196,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Omega System.cd" />
     <Content Include="Omega System.cd" />
     <Content Include="Omega System.cd" />
     <Content Include="Omega System.cd" />

@@ -30,7 +30,7 @@ namespace Omega_System.Class.View
 		public void Editar(){
 			
 			
-			frmUpdFab f3 = new frmUpdFab(f);
+			frmUpdFab f3 = new frmUpdFab();
 			this.Hide();
 			f3.ShowDialog();
 		}

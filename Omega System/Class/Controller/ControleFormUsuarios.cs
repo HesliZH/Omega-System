@@ -9,12 +9,13 @@ namespace Omega_System.Class.Controller
         IFormUsuarios i;
 		public ControleFormUsuarios()
 		{
-            //i = new 
+            /*i = new*/ 
 		}
 
         public void Incluir() {
             
         }
+		
 		
 	}
 }

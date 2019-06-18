@@ -81,7 +81,7 @@ namespace Omega_System.Class.View
 			this.dgv_produtos.Name = "dgv_produtos";
 			this.dgv_produtos.Size = new System.Drawing.Size(419, 185);
 			this.dgv_produtos.TabIndex = 3;
-			this.dgv_produtos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1CellDoubleClick);
+			this.dgv_produtos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_produtosCellDoubleClick);
 			// 
 			// btn_voltar
 			// 

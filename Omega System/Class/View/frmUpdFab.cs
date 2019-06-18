@@ -8,22 +8,22 @@ namespace Omega_System.Class.View
 {
 	public partial class frmUpdFab : Form, IUpdFab
 	{	
-		Fabricantes f1;
+		Fabricantes f;
 		IUpdFabController controller;
-		public frmUpdFab(Fabricantes f)
+		public frmUpdFab()
 		{
 			InitializeComponent();
-			f1 = new Fabricantes();
+			f = new Fabricantes();
 			txt_id.Text = Convert.ToString(f.getId());
 			txt_nome.Text = f.getNome();
 			controller = new UpdFabController();
 		}
 		
 		public void Editar(){
-			f1.setId(Convert.ToInt32(txt_id.Text));
-			f1.setNome(txt_nome.Text);
+			f.setId(Convert.ToInt32(txt_id.Text));
+			f.setNome(txt_nome.Text);
 			
-			f1.Editar();
+			f.Editar();
 		}
 		
 		public void Voltar(){

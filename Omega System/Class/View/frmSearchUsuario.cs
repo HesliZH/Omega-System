@@ -9,14 +9,37 @@ using Omega_System.Class.Controller;
 
 namespace Omega_System.Class.View
 {
-	public partial class frmSearchUsuario : Form
+	public partial class frmSearchUsuario : Form, IFormUsuarios
 	{
-		IFormUsuarios i;
 		int id;
+		IUsuarioController controller;
+		Usuarios u;
 		public frmSearchUsuario()
 		{
 			InitializeComponent();
-			i = new ControleFormUsuarios();
+			u = new Usuarios();
+			controller = new UsuariosController();
+		}
+		
+		public void Incluir(){
+			this.Hide();
+			u.Cadastrar();	
+		}
+		
+		public void Editar(){
+			frmUpdUsu f3 = new frmUpdUsu(u);
+			this.Hide();
+			f3.ShowDialog();
+		}
+		
+		public void Excluir(){
+			Usuarios u = new Usuarios();
+			u.setId(id);
+			u.Deletar();
+		}
+		
+		public void Voltar(){
+		
 		}
 		
 		void Btn_pesquisarClick(object sender, EventArgs e)
@@ -32,20 +55,14 @@ namespace Omega_System.Class.View
 		
 		void Btn_incluirClick(object sender, EventArgs e)
 		{
-			this.Hide();
-			i.IncluiUsuario();
+			this.controller.Incluir();
 		}
 		
 		void Dgv_usuariosCellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
 		{
-			Usuarios u = new Usuarios();
 			u.setId(Convert.ToInt32(dgv_usuarios.Rows[e.RowIndex].Cells[0].Value));
 			u.setNome(Convert.ToString(dgv_usuarios.Rows[e.RowIndex].Cells[1].Value));
 			u.setLogin(Convert.ToString(dgv_usuarios.Rows[e.RowIndex].Cells[2].Value));
-			
-			frmUpdUsu f3 = new frmUpdUsu(u);
-			this.Hide();
-			f3.ShowDialog();
 		}
 		
 		void Dgv_usuariosCellClick(object sender, DataGridViewCellEventArgs e)
@@ -55,9 +72,7 @@ namespace Omega_System.Class.View
 		
 		void Btn_excluirClick(object sender, EventArgs e)
 		{
-			Usuarios u = new Usuarios();
-			u.setId(id);
-			u.Deletar();
+			
 		}
 	}
 }
